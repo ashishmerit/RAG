@@ -1,0 +1,11 @@
+# Introduction to LangChain
+
+LangChain is an open-source framework designed to simplify the development of applications powered by large language models (LLMs). It provides tools and components that help developers connect language models with external data sources, APIs, databases, and other software systems.
+
+One of the important features of LangChain is its support for document loaders. Document loaders allow applications to import data from different formats, including PDF files, text files, CSV files, web pages, and Word documents. Once the data is loaded, it can be processed and prepared for further analysis.
+
+LangChain also supports text splitting, which divides large documents into smaller chunks. This process is useful because language models often have limitations on the amount of text they can process at one time. These chunks can then be converted into embeddings, which represent textual information as numerical vectors.
+
+Another important component is the retriever, which searches for relevant document chunks based on a user's question. When combined with a language model, retrieval can help generate answers grounded in external information.
+
+LangChain is commonly used to build chatbots, document question-answering systems, research assistants, and retrieval-augmented generation (RAG) applications. Its modular architecture allows developers to experiment with different models, vector databases, and data sources while building flexible AI applications.
